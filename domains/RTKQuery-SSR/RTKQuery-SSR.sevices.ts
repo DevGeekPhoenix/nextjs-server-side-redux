@@ -1,5 +1,6 @@
 import { createApi } from "@reduxjs/toolkit/query/react";
 import { HYDRATE } from "next-redux-wrapper";
+import { GetPhotosTypeResponse } from "./index.d";
 import { axiosBaseQuery } from "../../utils/apiUtil";
 
 export const RTKQuerySSRApi = createApi({
@@ -19,13 +20,13 @@ export const RTKQuerySSRApi = createApi({
 
   endpoints(build) {
     return {
-      getPhotos: build.query<any, null>({
+      getPhotos: build.query<GetPhotosTypeResponse[], null>({
         query: () => ({
           url: `/photos`,
           method: "GET",
         }),
 
-        transformResponse(response: any) {
+        transformResponse(response: GetPhotosTypeResponse[]) {
           return response;
         },
       }),

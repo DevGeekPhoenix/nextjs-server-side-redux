@@ -16,7 +16,7 @@ const NextReduxWrapperSlice = createSlice({
   initialState,
 
   reducers: {
-    setPostData: (state, action: PayloadAction<any>) => {
+    setPostData: (state, action: PayloadAction<PostTypeResponse[]>) => {
       state.postData = action.payload;
     },
   },
@@ -27,7 +27,7 @@ export const { setPostData } = NextReduxWrapperSlice.actions;
 export default NextReduxWrapperSlice.reducer;
 
 export const usePostDataSelector = () => {
-  const postData = useSelector(
+  const postData: PostTypeResponse[] = useSelector(
     (state: RootState) => state.NextReduxWrapperSlice.postData
   );
   return postData;
