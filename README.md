@@ -15,7 +15,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Built With
 
 1- Next.js [Next.js Documentation](https://nextjs.org/docs).
+
 2- Redux Toolkit  [Redux Toolkit Documentation](https://redux-toolkit.js.org/).
+
 3- Redux Toolkit Query [RTK Query Documentation](https://redux-toolkit.js.org/rtk-query/overview).
+
 3- Next Redux Wrapper [Next Redux Wrapper npm](https://www.npmjs.com/package/next-redux-wrapper).
 
