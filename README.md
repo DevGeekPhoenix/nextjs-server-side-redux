@@ -1,6 +1,12 @@
-# Nextjs Server Side Redux Sample
+# Next.js Server-Side Redux Example
 
-This is a sample project to use Redux server side in `Nextjs` along with `Redux Toolkit` and `RTK Query` using `Next Redux Wrapper`. 
+This repository contains an example project demonstrating how to integrate Redux with a Next.js application using server-side rendering. It showcases a setup that allows you to manage your application's state using Redux while taking advantage of Next.js's powerful server-side rendering capabilities.
+
+## packages
+
+- **Redux Toolkit**
+- **RTK Query**
+- **Next Redux Wrapper**
 
 ## Getting Started
 
