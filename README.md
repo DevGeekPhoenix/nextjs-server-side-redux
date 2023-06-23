@@ -2,12 +2,6 @@
 
 This repository contains an example project demonstrating how to integrate Redux with a Next.js application using server-side rendering. It showcases a setup that allows you to manage your application's state using Redux while taking advantage of Next.js's powerful server-side rendering capabilities.
 
-## packages
-
-- **Redux Toolkit**
-- **RTK Query**
-- **Next Redux Wrapper**
-
 ## Getting Started
 
 First, run the development server:
